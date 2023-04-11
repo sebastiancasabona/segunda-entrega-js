@@ -1,19 +1,26 @@
+body {
+    background-image: url(../imagenes/fondo.jpg);
+}
+
 h1 {
     color: black;
 }
+
 body {
-    background-color:cyan;
+    background-color:aqua;
 }
 
 h2 {
-    color: blueviolet;
+    color: blanchedalmond;
 }
+
 .divProductos {
-    color: brown;
+    color:crimson;
 }
+
 .textCenter {
     text-align: center;
-    
+
 }
 
 ul {

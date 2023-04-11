@@ -5,7 +5,7 @@ class Compra {
     }
     obtenerSubtotal() {
         if (this.carrito.length > 0) {
-            return this.carrito.reduce((acc, productos)=> acc + (productos.precio * productos.cantidad), 0)
+            return this.carrito.reduce((acc, productos) => acc + productos.precio, 0)
         }
     }
 }
